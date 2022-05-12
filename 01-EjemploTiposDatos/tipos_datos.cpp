@@ -1,6 +1,8 @@
 #include <cassert>
 #include <string>
 
+using namespace std::literals;
+
 int main() 
 {
     // tipo de dato INT
@@ -45,4 +47,5 @@ int main()
     assert( 8u + 2u == 5u * 2u );
     assert( 0u == 0u ); 
     // tipo de dato STRING
+    assert( "reboredo"s == "rebo"s + "redo"s ); 
 }
